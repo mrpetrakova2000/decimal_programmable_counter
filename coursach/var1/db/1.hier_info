@@ -1,0 +1,42 @@
+|1
+Q[9] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+M => inst23.IN0
+M => inst23.IN1
+M => inst54.IN6
+M => inst18.IN0
+M => inst19.IN0
+M => inst19.IN1
+M => inst44.IN0
+M => inst44.IN1
+M => inst48.IN1
+M => inst41.IN0
+M => inst41.IN1
+M => inst22.IN0
+Reset => inst32.IN0
+Reset => inst32.IN1
+Start/Stop => inst26~1.IN0
+Start/Stop => inst26~0.IN1
+Start/Stop => inst27.IN1
+Start/Stop => inst66.IN1
+Start/Stop => inst36.IN1
+Clock => inst26.CLK
+Clock => inst11.CLK
+Clock => inst10.CLK
+Clock => inst3.CLK
+Clock => inst5.CLK
+Clock => inst6.CLK
+Clock => inst7.CLK
+Clock => inst8.CLK
+Clock => inst9.CLK
+Clock => inst4.CLK
+
+

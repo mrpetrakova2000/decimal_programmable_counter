@@ -1,0 +1,299 @@
+Simulator report for 2
+Sun May 21 15:10:24 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 86 nodes     ;
+; Simulation Coverage         ;      52.13 % ;
+; Total Number of Transitions ; 374          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                                ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                              ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                           ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                                 ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                                  ;               ;
+; Vector input source                                                                        ; C:/Users/admin/Desktop/Learning/Course_3/Semester-2/EBCS/coursach/var2/Waveform4.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                                   ; On            ;
+; Check outputs                                                                              ; Off                                                                                  ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                                   ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                                   ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                                   ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                                   ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                                  ; Off           ;
+; Detect glitches                                                                            ; Off                                                                                  ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                                  ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                                  ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                                  ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                                  ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                                   ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                           ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                                  ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                                  ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                                 ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------------------------------+
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ALTSYNCRAM ;
++--------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      52.13 % ;
+; Total nodes checked                                 ; 86           ;
+; Total output ports checked                          ; 94           ;
+; Total output ports with complete 1/0-value coverage ; 49           ;
+; Total output ports with no 1/0-value coverage       ; 35           ;
+; Total output ports with no 1-value coverage         ; 45           ;
+; Total output ports with no 0-value coverage         ; 35           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                         ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; |2|p[2]                                                                                               ; |2|p[2]                                                                                                  ; pin_out          ;
+; |2|p[1]                                                                                               ; |2|p[1]                                                                                                  ; pin_out          ;
+; |2|p[0]                                                                                               ; |2|p[0]                                                                                                  ; pin_out          ;
+; |2|Clock                                                                                              ; |2|Clock                                                                                                 ; out              ;
+; |2|inst20                                                                                             ; |2|inst20                                                                                                ; out0             ;
+; |2|inst4                                                                                              ; |2|inst4                                                                                                 ; regout           ;
+; |2|inst18                                                                                             ; |2|inst18                                                                                                ; out0             ;
+; |2|inst19                                                                                             ; |2|inst19                                                                                                ; out0             ;
+; |2|Data[2]                                                                                            ; |2|Data[2]                                                                                               ; out              ;
+; |2|Data[1]                                                                                            ; |2|Data[1]                                                                                               ; out              ;
+; |2|Data[0]                                                                                            ; |2|Data[0]                                                                                               ; out              ;
+; |2|~IOW                                                                                               ; |2|~IOW                                                                                                  ; out              ;
+; |2|inst17                                                                                             ; |2|inst17                                                                                                ; out0             ;
+; |2|inst12                                                                                             ; |2|inst12                                                                                                ; out0             ;
+; |2|Addr[6]                                                                                            ; |2|Addr[6]                                                                                               ; out              ;
+; |2|inst21                                                                                             ; |2|inst21                                                                                                ; out0             ;
+; |2|inst9                                                                                              ; |2|inst9                                                                                                 ; regout           ;
+; |2|inst22                                                                                             ; |2|inst22                                                                                                ; out0             ;
+; |2|inst24                                                                                             ; |2|inst24                                                                                                ; out0             ;
+; |2|inst23                                                                                             ; |2|inst23                                                                                                ; out0             ;
+; |2|Q[4]                                                                                               ; |2|Q[4]                                                                                                  ; pin_out          ;
+; |2|Q[3]                                                                                               ; |2|Q[3]                                                                                                  ; pin_out          ;
+; |2|Q[2]                                                                                               ; |2|Q[2]                                                                                                  ; pin_out          ;
+; |2|Q[1]                                                                                               ; |2|Q[1]                                                                                                  ; pin_out          ;
+; |2|Q[0]                                                                                               ; |2|Q[0]                                                                                                  ; pin_out          ;
+; |2|inst15                                                                                             ; |2|inst15                                                                                                ; regout           ;
+; |2|inst25                                                                                             ; |2|inst25                                                                                                ; out0             ;
+; |2|inst27                                                                                             ; |2|inst27                                                                                                ; out0             ;
+; |2|inst26                                                                                             ; |2|inst26                                                                                                ; out0             ;
+; |2|lpm_rom:inst|otri[4]                                                                               ; |2|lpm_rom:inst|otri[4]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[3]                                                                               ; |2|lpm_rom:inst|otri[3]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[2]                                                                               ; |2|lpm_rom:inst|otri[2]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[1]                                                                               ; |2|lpm_rom:inst|otri[1]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[0]                                                                               ; |2|lpm_rom:inst|otri[0]                                                                                  ; out              ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a0          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[0]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a1          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[1]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a2          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[2]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a3          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[3]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a4          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[4]                   ; portadataout0    ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita0   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita0      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita0   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita1   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita1      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita1   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita2   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita2      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita2   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[2] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[2]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[1] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[1]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[0] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0]               ; regout           ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                            ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                         ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; |2|p[8]                                                                                               ; |2|p[8]                                                                                                  ; pin_out          ;
+; |2|p[7]                                                                                               ; |2|p[7]                                                                                                  ; pin_out          ;
+; |2|p[6]                                                                                               ; |2|p[6]                                                                                                  ; pin_out          ;
+; |2|p[5]                                                                                               ; |2|p[5]                                                                                                  ; pin_out          ;
+; |2|p[4]                                                                                               ; |2|p[4]                                                                                                  ; pin_out          ;
+; |2|p[3]                                                                                               ; |2|p[3]                                                                                                  ; pin_out          ;
+; |2|inst8                                                                                              ; |2|inst8                                                                                                 ; out0             ;
+; |2|Addr[7]                                                                                            ; |2|Addr[7]                                                                                               ; out              ;
+; |2|Addr[5]                                                                                            ; |2|Addr[5]                                                                                               ; out              ;
+; |2|Addr[4]                                                                                            ; |2|Addr[4]                                                                                               ; out              ;
+; |2|Addr[3]                                                                                            ; |2|Addr[3]                                                                                               ; out              ;
+; |2|Addr[2]                                                                                            ; |2|Addr[2]                                                                                               ; out              ;
+; |2|Addr[1]                                                                                            ; |2|Addr[1]                                                                                               ; out              ;
+; |2|Addr[0]                                                                                            ; |2|Addr[0]                                                                                               ; out              ;
+; |2|Q[9]                                                                                               ; |2|Q[9]                                                                                                  ; pin_out          ;
+; |2|Q[8]                                                                                               ; |2|Q[8]                                                                                                  ; pin_out          ;
+; |2|Q[7]                                                                                               ; |2|Q[7]                                                                                                  ; pin_out          ;
+; |2|Q[6]                                                                                               ; |2|Q[6]                                                                                                  ; pin_out          ;
+; |2|Q[5]                                                                                               ; |2|Q[5]                                                                                                  ; pin_out          ;
+; |2|lpm_rom:inst|otri[9]                                                                               ; |2|lpm_rom:inst|otri[9]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[8]                                                                               ; |2|lpm_rom:inst|otri[8]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[7]                                                                               ; |2|lpm_rom:inst|otri[7]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[6]                                                                               ; |2|lpm_rom:inst|otri[6]                                                                                  ; out              ;
+; |2|lpm_rom:inst|otri[5]                                                                               ; |2|lpm_rom:inst|otri[5]                                                                                  ; out              ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a5          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[5]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a6          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[6]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a7          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[7]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a8          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[8]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a9          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[9]                   ; portadataout0    ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita8   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita8      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[8] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[8]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[7] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[7]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[6] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[6]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[5] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[5]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[4] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[4]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[3] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[3]               ; regout           ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                            ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                         ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+; |2|p[8]                                                                                               ; |2|p[8]                                                                                                  ; pin_out          ;
+; |2|p[7]                                                                                               ; |2|p[7]                                                                                                  ; pin_out          ;
+; |2|p[6]                                                                                               ; |2|p[6]                                                                                                  ; pin_out          ;
+; |2|p[5]                                                                                               ; |2|p[5]                                                                                                  ; pin_out          ;
+; |2|p[4]                                                                                               ; |2|p[4]                                                                                                  ; pin_out          ;
+; |2|p[3]                                                                                               ; |2|p[3]                                                                                                  ; pin_out          ;
+; |2|inst8                                                                                              ; |2|inst8                                                                                                 ; out0             ;
+; |2|Addr[7]                                                                                            ; |2|Addr[7]                                                                                               ; out              ;
+; |2|Addr[5]                                                                                            ; |2|Addr[5]                                                                                               ; out              ;
+; |2|Addr[4]                                                                                            ; |2|Addr[4]                                                                                               ; out              ;
+; |2|Addr[3]                                                                                            ; |2|Addr[3]                                                                                               ; out              ;
+; |2|Addr[2]                                                                                            ; |2|Addr[2]                                                                                               ; out              ;
+; |2|Addr[1]                                                                                            ; |2|Addr[1]                                                                                               ; out              ;
+; |2|Addr[0]                                                                                            ; |2|Addr[0]                                                                                               ; out              ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a5          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[5]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a6          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[6]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a7          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[7]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a8          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[8]                   ; portadataout0    ;
+; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|ram_block1a9          ; |2|lpm_rom:inst|altrom:srom|altsyncram:rom_block|altsyncram_fc01:auto_generated|q_a[9]                   ; portadataout0    ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita4~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita5~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita6~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita7~COUT ; cout             ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita8   ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_comb_bita8      ; combout          ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[8] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[8]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[7] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[7]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[6] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[6]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[5] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[5]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[4] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[4]               ; regout           ;
+; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|counter_reg_bit1a[3] ; |2|lpm_counter3:inst10|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[3]               ; regout           ;
++-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun May 21 15:10:24 2023
+Info: Command: quartus_sim --simulation_results_format=VWF 2 -c 2
+Info (324025): Using vector source file "C:/Users/admin/Desktop/Learning/Course_3/Semester-2/EBCS/coursach/var2/Waveform4.vwf"
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "Start/Stop" in design.
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      52.13 %
+Info (328052): Number of transitions in simulation is 374
+Info (324045): Vector file 2.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4441 megabytes
+    Info: Processing ended: Sun May 21 15:10:24 2023
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
